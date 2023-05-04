@@ -1,0 +1,160 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "banana",
+      "price": 200,
+      "photo": "6.jpg",
+      "details": "good banana",
+      "seller": 1
+    },
+    {
+      "id": 2,
+      "name": "apple",
+      "price": 300,
+      "photo": "5.jpg",
+      "details": "good apple",
+      "seller": 1
+    },
+    {
+      "id": 3,
+      "name": "mango",
+      "price": 400,
+      "photo": "7.jpg",
+      "details": "good mango",
+      "seller": 1
+    },
+    {
+      "name": "MOUSE",
+      "price": "1000",
+      "photo": "https://assets2.razerzone.com/images/pnx.assets/a0ed073e67e2ce06cbf4f6c40c79b6ad/basilisk-v3_500x500.png",
+      "details": "WIRE LESS MOUSE",
+      "seller": "1",
+      "id": 4
+    },
+    {
+      "name": "PRINTER",
+      "price": "5000",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrS4Po6mlQDcqLBB4_x5KnBNKps1mpxBQTIQ&usqp=CAU",
+      "details": "colored printer",
+      "seller": "1",
+      "id": 5
+    },
+    {
+      "name": "LAPTOP",
+      "price": "100000",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUQrsXh3XWhB11-vGhiF0oBrb1XIOrBoJwJXulwWbuwT3VCoiU7ruwbv4k1bY7rGT71jU&usqp=CAU",
+      "details": "APPLE MACKBOOK",
+      "seller": "2",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "name": "LAPTOP",
+      "price": "100000",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUQrsXh3XWhB11-vGhiF0oBrb1XIOrBoJwJXulwWbuwT3VCoiU7ruwbv4k1bY7rGT71jU&usqp=CAU",
+      "details": "APPLE MACKBOOK",
+      "seller": "2",
+      "id": 6,
+      "qty": 2
+    }
+  ],
+  "order": [
+    {
+      "customername": "umesh",
+      "mobile": "9557771247",
+      "email": "umesh@gmail.com",
+      "address": "113123",
+      "orderitem": [
+        {
+          "name": "LAPTOP",
+          "price": "100000",
+          "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUQrsXh3XWhB11-vGhiF0oBrb1XIOrBoJwJXulwWbuwT3VCoiU7ruwbv4k1bY7rGT71jU&usqp=CAU",
+          "details": "APPLE MACKBOOK",
+          "seller": "2",
+          "id": 6,
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "name": "apple",
+          "price": 300,
+          "photo": "5.jpg",
+          "details": "good apple",
+          "seller": 1,
+          "qty": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "customername": "vishal",
+      "mobile": "9557771245",
+      "email": "vishal@gmail.com",
+      "address": "dagsdjgd",
+      "orderitem": [
+        {
+          "name": "LAPTOP",
+          "price": "100000",
+          "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUQrsXh3XWhB11-vGhiF0oBrb1XIOrBoJwJXulwWbuwT3VCoiU7ruwbv4k1bY7rGT71jU&usqp=CAU",
+          "details": "APPLE MACKBOOK",
+          "seller": "2",
+          "id": 6,
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "name": "apple",
+          "price": 300,
+          "photo": "5.jpg",
+          "details": "good apple",
+          "seller": 1,
+          "qty": 1
+        },
+        {
+          "id": 3,
+          "name": "mango",
+          "price": 400,
+          "photo": "7.jpg",
+          "details": "good mango",
+          "seller": 1,
+          "qty": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "customername": "hgfhgfgh",
+      "mobile": "567576576",
+      "email": "hvhgfghfhg",
+      "address": "hghgfhgfjffgh",
+      "orderitem": [
+        {
+          "name": "LAPTOP",
+          "price": "100000",
+          "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUQrsXh3XWhB11-vGhiF0oBrb1XIOrBoJwJXulwWbuwT3VCoiU7ruwbv4k1bY7rGT71jU&usqp=CAU",
+          "details": "APPLE MACKBOOK",
+          "seller": "2",
+          "id": 6,
+          "qty": 2
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "fullname": "Admin 1",
+      "email": "admin1@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "fullname": "seller 2",
+      "email": "s2@gmail.com",
+      "password": "123"
+    }
+  ]
+}

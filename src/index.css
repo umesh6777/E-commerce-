@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@keyframes mybanner{
+  25%{ background-image: url('../public/1.jpeg'); }
+  50%{ background-image: url('../public/2.webp'); }
+  75%{ background-image: url('../public/3.jpeg'); }
+}
+
+#banner{
+  height: 400px;
+  background-image: url('../public/4.jpeg');
+  background-size: 100% 150%;
+  animation: mybanner;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  font-size: 90px;
+  text-align: center;
+  color:yellow;
+  padding: 100px;
+}
